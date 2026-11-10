@@ -4,6 +4,14 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/sals-food-recommendations",
   images: { unoptimized: true },
+    turbopack: {
+    rules: {
+      "*.css": {
+        loaders: ["@tailwindcss/turbopack"],
+        as: "*.css",
+      },
+    },
+  },
 };
 
 export default nextConfig;
