@@ -6,7 +6,7 @@ export default function Home() {
       <header className="w-full max-w-3xl border-b border-zinc-200 px-6 py-4 text-center text-lg font-semibold text-black dark:border-zinc-800 dark:text-zinc-50">
         <Image
           className="h-[100px] w-[100px] dark:invert"
-          src="/burger-sal.svg"
+          src="/sals-food-recommendations/burger-sal.svg"
           alt="Sal with a burger."
           width={100}
           height={100}
@@ -50,7 +50,7 @@ export default function Home() {
             className="block overflow-hidden rounded-lg border text-center hover:underline"
           >
             <Image
-              src="/flying-saucer-draught-emporium.webp"
+              src="/sals-food-recommendations/flying-saucer-draught-emporium.webp"
               alt=""
               width={300}
               height={200}
@@ -66,7 +66,7 @@ export default function Home() {
             className="block overflow-hidden rounded-lg border text-center hover:underline"
           >
             <Image
-              src="/el-mirasol.webp"
+              src="/sals-food-recommendations/el-mirasol.webp"
               alt=""
               width={300}
               height={200}
@@ -82,7 +82,7 @@ export default function Home() {
             className="block overflow-hidden rounded-lg border text-center hover:underline"
           >
             <Image
-              src="/tycoon-flats.webp"
+              src="/sals-food-recommendations/tycoon-flats.webp"
               alt=""
               width={300}
               height={200}
@@ -101,7 +101,7 @@ export default function Home() {
           >
             <Image
               className="h-[16px] w-4 dark:invert"
-              src="/github.svg"
+              src="/sals-food-recommendations/github.svg"
               alt="GitHub logomark"
               width={16}
               height={16}
